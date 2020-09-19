@@ -1,45 +1,122 @@
+body{
+ background-color: rgb(255, 255, 255);
+ font-size: 15pt;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 header{
-    background-color: black;
-    position: fixed;
+    background-color: rgb(29, 26, 26);
     font-weight: bolder;
-    color: white;
-    font-size: x-large;
+    color: gray;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     text-align: center;
 }
 
-header h2{
-    font-weight:normal ;
-    font-size: medium;
-}
+
 
 nav{
-    border: 2px solid whitesmoke;
+
     padding: 15px;
-    background-color: rgb(43, 104, 128);
 
 }
 
-nav ul li {
+header nav ul li {
     display: inline-block;
     padding: 10px;
-    align-content: center;
-    text-align: left;
+    text-align: center;
     align-items: center;
-    color: black;
-    background-color: rgba(65, 8, 0, 0.562);
+    color: gray;
+    position: relative;
+    right: 15px;
+    width: 19%;
+
+}
+header img{
+    padding: 22px;
+    float: left;
+    padding:10px;
+    max-width: 200px;
+    max-height: 70px;
+    position: relative;
+    left: 218px;
+    top: 8px;
 }
 
-body{
- background-color: burlywood;
- font-size: 15pt;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-main h5 {
-    color: black;
-    text-align: left;
-    text-decoration: underline blue;
+main #mainPhoto img {
+    clear: both;
+    width: 80%;
+    padding: 71px;
     position: relative;
-    top: 400px;
+    left: 157px;
+}
+
+#threePhoto{
+    width: 81.5%;
+    position: relative;
+    left: 230px;
+}
+
+#threePhoto img{
+/* width: 26.6%; */
+width: 30%;
+padding: 34px;
+}
+
+#threePhoto #img1 {
+    padding-left: 0%;
+}
+
+#threePhoto #img2 {
+    padding-right: 0%;
+}
+section{
+    width: 80.15%;
+    position: relative;
+    left: 230px;
+}
+
+section img {
+    float: left;
+    padding: 0% 3% 3% 0%;
+    width: 834px;
+}
+
+section p{
+    text-align: justify;
+    padding-right: 0%;
+    display: inline-block;
+    float: right;
+    width: 919px;
+    height: 585px;
+    font-size: 14pt;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 18px;
+    overflow: overlay;
+}
+
+section p::first-line{
+    font-weight: normal;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height:20% ;
+    background-color: grey;
+    padding: 4%;
+}
+ input{
+    width: 274px;
+    padding: 22px;
+    font-size: larger;
+    color: white;
+    background-color: black;
 }
