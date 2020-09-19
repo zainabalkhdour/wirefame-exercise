@@ -49,8 +49,9 @@ main #mainPhoto img {
     padding: 71px;
     position: relative;
     left: 94px;
+    padding-bottom: 17px;
 }
-}
+
 
 #threePhoto{
     width: 81.5%;
@@ -59,10 +60,11 @@ main #mainPhoto img {
 }
 
 #threePhoto img{
-    width: 23.45%;
+    width: 28.75%;
     padding: 34px;
     position: relative;
-    left: 163px;
+    left: 0px;
+
 }
 
 #threePhoto #img1 {
@@ -96,9 +98,9 @@ section p{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     bottom: 18px;
-    overflow: overlay;
+    overflow: overlay;}
 
-section p::first-line{
+section p::first-line {
     font-weight: normal;
     font-size: 18pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -114,10 +116,16 @@ footer{
     background-color: grey;
     padding: 4%;
 }
- input{
-    width: 274px;
-    padding: 22px;
-    font-size: larger;
-    color: white;
+
+input{
+    
+    position: relative;
     background-color: black;
+    color: white;
+    width: 174px;
+    height: 62px;
+    top: 13px;
+    font-size: x-large;
 }
+
+  
