@@ -23,23 +23,23 @@ nav{
 
 header nav ul li {
     display: inline-block;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
     align-items: center;
     color: gray;
     position: relative;
-    right: 15px;
-    width: 19%;
+    right: 13px;
+    width: 16%;
 
 }
 header img{
-    padding: 22px;
+
     float: left;
-    padding:10px;
+    padding: 10px;
     max-width: 200px;
     max-height: 70px;
     position: relative;
-    left: 218px;
+    left: 155px;
     top: 8px;
 }
 
@@ -48,19 +48,21 @@ main #mainPhoto img {
     width: 80%;
     padding: 71px;
     position: relative;
-    left: 157px;
+    left: 94px;
+}
 }
 
 #threePhoto{
     width: 81.5%;
     position: relative;
-    left: 230px;
+    left: 163px;
 }
 
 #threePhoto img{
-/* width: 26.6%; */
-width: 30%;
-padding: 34px;
+    width: 23.45%;
+    padding: 34px;
+    position: relative;
+    left: 163px;
 }
 
 #threePhoto #img1 {
@@ -73,13 +75,13 @@ padding: 34px;
 section{
     width: 80.15%;
     position: relative;
-    left: 230px;
+    left: 163px;
 }
 
 section img {
     float: left;
     padding: 0% 3% 3% 0%;
-    width: 834px;
+    width: 600px;
 }
 
 section p{
@@ -87,15 +89,14 @@ section p{
     padding-right: 0%;
     display: inline-block;
     float: right;
-    width: 919px;
-    height: 585px;
+    width: 560px;
+    height: 387px;
     font-size: 14pt;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     bottom: 18px;
     overflow: overlay;
-}
 
 section p::first-line{
     font-weight: normal;
